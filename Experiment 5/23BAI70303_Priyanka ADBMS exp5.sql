@@ -69,4 +69,8 @@ SELECT
 FROM Employees
 GROUP BY department;
 
+REVOKE ALL ON Sales FROM Priyanka;
+GRANT SELECT ON sales_summary TO Priyanka;
+GRANT SELECT ON sales_summary_mv TO Priyanka;
+
 
